@@ -1,0 +1,27 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: ALMAR
+	Copyright (c)2013  WP Theme Seo
+	Theme URI: http://www.wpthemeseo.com
+	Description: Wordpress Admin Theme
+	Author: WP Theme Seo
+	Author URI: http://www.wpthemeseo.com
+	Version: 1.0
+-----------------------------------------------------------------------------------*/
+html, body .wp-admin{background: #576475 url(../img/bg/bg-main.jpg) !important;}
+#wpadminbar {background: #1f232e !important;}
+#wpadminbar .ab-top-secondary { background: #e02222;} 
+#wpadminbar .quicklinks>ul>li>a:hover  {background: #e02222;}
+#adminmenuback, #adminmenuwrap { background-color: #2e3642;border-color: #1f232e;}
+#adminmenuback, #adminmenu {background-color: #2e3642; }
+#adminmenu a.menu-top, #adminmenu .wp-submenu .wp-submenu-head {border-top-color: #1f232e;border-bottom-color: #2e3642;}
+#collapse-menu { color: #bdbdbd; border-top-color: #1f232e;}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus,  #adminmenu li>a.menu-top:hover {background: #576475 !important; color: #fff;}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+color: #fff; border-top-color: #1f232e !important; border-bottom-color: transparent !important;}
+#adminmenu a {color: #999;}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+background: #e02222 !important;}
+#adminmenu .wp-submenu, .folded #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu {
+background-color: #2e3642; border-color: transparent;}
+#adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover {color: #fff;}
+#adminmenu .wp-submenu a:hover, #adminmenu .wp-submenu a:focus { background-color: #576475; color: #fff; }

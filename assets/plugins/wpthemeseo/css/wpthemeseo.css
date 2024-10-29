@@ -1,0 +1,239 @@
+/* Options Framework Admin Styles */
+
+.updated {
+	max-width:764px;
+	margin-bottom:0px !important;
+}
+#wpthemeseo {
+	position:relative;
+	z-index: 0;
+	max-width:780px;
+	background:#fff;
+}
+#wpthemeseo h3 {
+	cursor: default;
+}
+#wpthemeseo p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+#wpthemeseo .section {
+	padding:10px 10px 0;
+}
+#wpthemeseo .group {
+	padding-bottom:40px;
+}
+#wpthemeseo .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+#wpthemeseo .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#wpthemeseo .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#wpthemeseo .section-checkbox .controls {
+	width: 98%;
+}
+#wpthemeseo .section-checkbox .explain {
+	max-width:94%;
+}
+#wpthemeseo .ws-input {
+	width:100%;
+}
+#wpthemeseo .controls select, #wpthemeseo .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#wpthemeseo .section-radio label, #wpthemeseo .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#wpthemeseo input.checkbox, #wpthemeseo input.ws-radio {
+	width: 30px;
+	margin-top:2px;
+	float:left;
+	clear:both;
+}
+#wpthemeseo .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#wpthemeseo .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#wpthemeseo .controls .ws-typography-size {
+	width:80px;
+	float:left
+}
+#wpthemeseo .controls .ws-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#wpthemeseo .controls .ws-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#wpthemeseo .controls .ws-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#wpthemeseo .ws-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+#wpthemeseo .controls .ws-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpthemeseo .controls .ws-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpthemeseo .controls .ws-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpthemeseo .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#wpthemeseo .controls .ws-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#wpthemeseo .controls .ws-radio-img-selected {
+	border:3px solid #ccc
+}
+#wpthemeseo .controls .ws-radio-img-img:hover {
+	opacity:.8;
+}
+#wpthemeseo .controls .ws-border-width {
+	width:80px;
+	float:left
+}
+#wpthemeseo .controls .ws-border-style {
+	width:120px;
+	float:left
+}
+#wpthemeseo .hide {
+	display:none;
+}
+#wpthemeseo .ws-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#wpthemeseo .mini .controls select, #wpthemeseo .section .mini .controls {
+	width: 140px;
+}
+#wpthemeseo .mini .controls input, #wpthemeseo .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#wpthemeseo .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#wpthemeseo .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#wpthemeseo .controls input.upload {
+	width:80%;
+}
+#wpthemeseo .controls input.upload_button {
+	float:right;
+	border-color:#BBBBBB;
+	cursor:pointer;
+}
+#wpthemeseo .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#wpthemeseo .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#wpthemeseo .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#wpthemeseo .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#wpthemeseo .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#wpthemeseo .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#wpthemeseo .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#wpthemeseo-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+#wpthemeseo .button-primary {
+	float:right;
+}
+#wpthemeseo .section:after {
+	content: "";
+	display: table;
+}
+#wpthemeseo .section:after {
+	clear: both;
+}

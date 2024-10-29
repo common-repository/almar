@@ -1,0 +1,31 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: ALMAR
+	Copyright (c)2013  WP Theme Seo
+	Theme URI: http://www.wpthemeseo.com
+	Description: Wordpress Admin Theme
+	Author: WP Theme Seo
+	Author URI: http://www.wpthemeseo.com
+	Version: 1.0
+-----------------------------------------------------------------------------------*/
+body.login , body .wp-admin{background: #a4b4c4 !important;}
+.login form { background: url(../img/bg/bg-login-form.png) repeat;border-radius:0 !important;-webkit-border-radius:0 !important;-webkit-box-shadow:none;box-shadow:none; }
+.login #nav a,.login #backtoblog a{ color:#005580; text-shadow:none; text-decoration: none; font-weight: bold;}
+.login #nav a:hover, .login #nav a:active, .login #nav a:focus, .login #backtoblog a:hover, .login #backtoblog a:active, .login #backtoblog a:focus {color: #005580 !important; text-decoration: underline; font-weight: bold;}
+.login label {color: #eeeeee;font-size: 14px;font-weight: bold;}
+.login .message {color:#fff;padding:10px !important; background : url(../img/bg/bg-login-form.png) repeat; border-color:#e5e5e5 !important}
+.login #login_error { background-color: transparent; background : url(../img/bg/bg-login-form.png) repeat; border-color: #c00; color: #c80000;}
+.login #login_error a{ color:#005580; text-shadow:none; text-decoration: none; font-weight: bold;}
+.login #login_error a:hover, .login #login_error a:active, .login #login_error a:focus  {color: #005580 !important; text-decoration: underline; font-weight: bold;}
+button,.button,a.button,.button-highlighted,input.button,input[type="button"],input[type="submit"],.button-primary,a.button-primary,button.button-primary,input.button-primary,.submit input,input.button-primary.submit input,input.button-highlighted,a.button-primary #postcustomstuff .submit input,.wp-core-ui .button[disabled],.wp-core-ui .button:disabled,.wp-core-ui .button-secondary[disabled],.wp-core-ui .button-secondary:disabled,.wp-core-ui .button-disabled,.wp-core-ui .button-primary[disabled],.wp-core-ui .button-primary:disabled,.wp-core-ui .button-primary-disabled{
+color: #ffffff; background-color: #4d90fe; background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+button:hover,button:active,button:focus,.button:hover,.button:focus,.button:active,a.button:hover,a.button:focus,a.button:active,.button-highlighted:hover,.button-highlighted:focus,.button-highlighted:active,input.button:hover,input.button:focus,input.button:active,input[type="button"]:hover,input[type="button"]:focus,input[type="button"]:active,input[type="submit"]:hover,input[type="submit"]:focus,input[type="submit"]:active,.button-primary:hover,.button-primary:focus,.button-primary:active,a.button-primary:hover,a.button-primary:focus,a.button-primary:active,button.button-primary:hover,button.button-primary:focus,button.button-primary:active,input.button-primary:hover,input.button-primary:focus,input.button-primary:active,.submit input:hover,.submit input:focus,.submit input:active,input.button-primary.submit input:hover,input.button-primary.submit input:focus,input.button-primary.submit input:active,input.button-highlighted:hover,input.button-highlighted:focus,input.button-highlighted:active{
+color: #ffffff; background-color: #4d90fe; background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+.button-secondary,a.button-secondary,button.button-secondary,input.button-secondary,input.button-secondary.submit input{color: #ffffff;  
+background-color: #4d90fe;background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+.button-secondary:hover,.button-secondary:focus,.button-secondary:active,a.button-secondary:hover,a.button-secondary:focus,a.button-secondary:active,button.button-secondary:hover,button.button-secondary:focus,button.button-secondary:active,input.button-secondary:hover,input.button-secondary:focus,input.button-secondary:active,.submit input:hover,.submit input:focus,.submit input:active,input.button-secondary.submit input:hover,input.button-secondary.submit input:focus,input.button-secondary.submit input:active{
+  color: #ffffff; background-color: #4d90fe; background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+.wp-core-ui .button,.wp-core-ui .button-primary,.wp-core-ui .button-secondary{color: #ffffff;  background-color: #4d90fe;
+background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+.wp-core-ui .button-primary.hover,.wp-core-ui .button-primary:hover,.wp-core-ui .button-primary.focus,.wp-core-ui .button-primary:focus,.wp-core-ui .button.hover,.wp-core-ui .button:hover,.wp-core-ui .button-secondary:hover,.wp-core-ui .button.focus,.wp-core-ui .button:focus,.wp-core-ui .button-secondary:focus{
+color: #ffffff; background-color: #0362fd !important; background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
+.wp-core-ui .button .button-large,.wp-core-ui .button-group .button-large .button{color: #ffffff; background-color: #4d90fe; background-image: none; border : 0; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-radius:0;-webkit-border-radius:0;}
